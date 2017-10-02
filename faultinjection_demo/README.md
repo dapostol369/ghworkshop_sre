@@ -17,7 +17,7 @@ For the sake of simplicity, lets consider a simple Cloud Service architecture co
 
 ### DIAGRAM
 
-<img src="">
+<img src="https://github.com/maychu/ghworkshop_sre/blob/master/images/architecture.jpg">
 
 ### Target for the Lab:
 
@@ -53,7 +53,7 @@ Open up a browser to check the running app at:
 
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/2295612/24097782/a374d0c0-0d24-11e7-9084-8efb2556fcc8.png" >
+<img src="https://github.com/maychu/ghworkshop_sre/blob/master/images/webapp-image.jpg" >
 </p>
 
 
