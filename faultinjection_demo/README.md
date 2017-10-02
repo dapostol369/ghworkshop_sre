@@ -87,4 +87,4 @@ e8fbd1158812        webapp_weba              "/entrypoint.sh /u..."   7 minutes 
 
 ```
 
-## Finally, lets head on to our [Exercise 1](https://github.com/ghworkshop_sre/tree/master/playbooks/exercise_1).
+## Finally, lets head on to our [Exercise 1](https://github.com/maychu/ghworkshop_sre/tree/master/faultinjection_demo/playbooks/exercise_1).
