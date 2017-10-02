@@ -1,0 +1,189 @@
+[33mWARNING:[0m Dependency conflict: an older version of the 'docker-py' package may be polluting the namespace. If you're experiencing crashes, run the following command to remedy the issue:
+pip uninstall docker-py; pip uninstall docker; pip install docker
+Starting webapp_mongo_1 ... 
+Starting webapp_mongo_1
+[1A[2KStarting webapp_mongo_1 ... [32mdone[0m[1BRecreating webapp_weba_1 ... 
+Recreating webapp_weba_1
+Starting webapp_mongo-seed_1 ... 
+Recreating webapp_webb_1 ... 
+Recreating webapp_webb_1
+Starting webapp_mongo-seed_1
+[1A[2KStarting webapp_mongo-seed_1 ... [32mdone[0m[1B[1A[2KRecreating webapp_weba_1 ... [32mdone[0m[1B[1A[2KRecreating webapp_webb_1 ... [32mdone[0m[1BRecreating webapp_haproxy_1 ... 
+Recreating webapp_haproxy_1
+[1A[2KRecreating webapp_haproxy_1 ... [32mdone[0m[1B[33mWARNING:[0m Dependency conflict: an older version of the 'docker-py' package may be polluting the namespace. If you're experiencing crashes, run the following command to remedy the issue:
+pip uninstall docker-py; pip uninstall docker; pip install docker
+Starting webapp_mongo_1 ... 
+Starting webapp_mongo_1
+[1A[2KStarting webapp_mongo_1 ... [32mdone[0m[1BStarting webapp_mongo-seed_1 ... 
+Starting webapp_webb_1 ... 
+Starting webapp_mongo-seed_1
+Starting webapp_webb_1
+Creating webapp_weba_1 ... 
+Creating webapp_weba_1
+[1A[2KStarting webapp_webb_1 ... [32mdone[0m[1B[1A[2KStarting webapp_mongo-seed_1 ... [32mdone[0m[1B[1A[2KCreating webapp_weba_1 ... [32mdone[0m[1BRecreating webapp_haproxy_1 ... 
+Recreating webapp_haproxy_1
+[1A[2KRecreating webapp_haproxy_1 ... [32mdone[0m[1B[33mWARNING:[0m Dependency conflict: an older version of the 'docker-py' package may be polluting the namespace. If you're experiencing crashes, run the following command to remedy the issue:
+pip uninstall docker-py; pip uninstall docker; pip install docker
+webapp_mongo_1 is up-to-date
+Recreating webapp_weba_1 ... 
+Recreating webapp_weba_1
+Starting webapp_mongo-seed_1 ... 
+Starting webapp_mongo-seed_1
+Recreating webapp_webb_1 ... 
+Recreating webapp_webb_1
+[1A[2KStarting webapp_mongo-seed_1 ... [32mdone[0m[1B[1A[2KRecreating webapp_webb_1 ... [32mdone[0m[1B[1A[2KRecreating webapp_weba_1 ... [32mdone[0m[1BRecreating webapp_haproxy_1 ... 
+Recreating webapp_haproxy_1
+[1A[2KRecreating webapp_haproxy_1 ... [32mdone[0m[1B[33mWARNING:[0m Dependency conflict: an older version of the 'docker-py' package may be polluting the namespace. If you're experiencing crashes, run the following command to remedy the issue:
+pip uninstall docker-py; pip uninstall docker; pip install docker
+Starting webapp_mongo_1 ... 
+Starting webapp_mongo_1
+[1A[2KStarting webapp_mongo_1 ... [32mdone[0m[1BRecreating webapp_webb_1 ... 
+Starting webapp_mongo-seed_1 ... 
+Starting webapp_mongo-seed_1
+Recreating webapp_weba_1 ... 
+Recreating webapp_webb_1
+Recreating webapp_weba_1
+[1A[2KStarting webapp_mongo-seed_1 ... [32mdone[0m[1B[1A[2KRecreating webapp_weba_1 ... [32mdone[0m[1B[1A[2KRecreating webapp_webb_1 ... [32mdone[0m[1BRecreating webapp_haproxy_1 ... 
+Recreating webapp_haproxy_1
+[1A[2KRecreating webapp_haproxy_1 ... [32mdone[0m[1B[33mWARNING:[0m Dependency conflict: an older version of the 'docker-py' package may be polluting the namespace. If you're experiencing crashes, run the following command to remedy the issue:
+pip uninstall docker-py; pip uninstall docker; pip install docker
+Starting webapp_mongo_1 ... 
+Starting webapp_mongo_1
+[1A[2KStarting webapp_mongo_1 ... [32mdone[0m[1BRecreating webapp_weba_1 ... 
+Starting webapp_mongo-seed_1 ... 
+Recreating webapp_weba_1
+Starting webapp_mongo-seed_1
+Recreating webapp_webb_1 ... 
+Recreating webapp_webb_1
+[1A[2KStarting webapp_mongo-seed_1 ... [32mdone[0m[1B[1A[2KRecreating webapp_weba_1 ... [32mdone[0m[1B[1A[2KRecreating webapp_webb_1 ... [32mdone[0m[1BRecreating webapp_haproxy_1 ... 
+Recreating webapp_haproxy_1
+[1A[2KRecreating webapp_haproxy_1 ... [32mdone[0m[1B[33mWARNING:[0m Dependency conflict: an older version of the 'docker-py' package may be polluting the namespace. If you're experiencing crashes, run the following command to remedy the issue:
+pip uninstall docker-py; pip uninstall docker; pip install docker
+Pulling mongo (mongo:3.4.0)...
+3.4.0: Pulling from library/mongo
+Digest: sha256:c20800f787af2d6bddfbfc884fe436aa7a3992bfd2d181b55c57c7ff04b84b87
+Status: Downloaded newer image for mongo:3.4.0
+Pulling haproxy (hypriot/rpi-haproxy:latest)...
+latest: Pulling from hypriot/rpi-haproxy
+Digest: sha256:4f9e1b85968e9909ec70517e831aa887bbab58090efaaa895677b157d1e49822
+Status: Downloaded newer image for hypriot/rpi-haproxy:latest
+Starting webapp_mongo_1 ... 
+Starting webapp_mongo_1
+[1A[2KStarting webapp_mongo_1 ... [32mdone[0m[1BRecreating webapp_weba_1 ... 
+Recreating webapp_mongo-seed_1 ... 
+Recreating webapp_mongo-seed_1
+Recreating webapp_weba_1
+Recreating webapp_webb_1 ... 
+Recreating webapp_webb_1
+[1A[2KRecreating webapp_webb_1 ... [31merror[0m[1B
+ERROR: for webapp_webb_1  no such image: sha256:c83290328d1760c9aaa8223737a0e8a6afc07931fc59fc1f8af193a63c03d727: No such image: sha256:c83290328d1760c9aaa8223737a0e8a6afc07931fc59fc1f8af193a63c03d727
+[1A[1A[2K[2KRecreating webapp_weba_1 ... [31merror[0mRecreating webapp_mongo-seed_1 ... [31merror[0m[1B[1B
+ERROR: for webapp_mongo-seed_1  no such image: sha256:738e3510e7a2b66e7401ea40341bee552f32b5cf718e057fa4b2600562a0a462: No such image: sha256:738e3510e7a2b66e7401ea40341bee552f32b5cf718e057fa4b2600562a0a462
+
+ERROR: for webapp_weba_1  no such image: sha256:c83290328d1760c9aaa8223737a0e8a6afc07931fc59fc1f8af193a63c03d727: No such image: sha256:c83290328d1760c9aaa8223737a0e8a6afc07931fc59fc1f8af193a63c03d727
+
+ERROR: for webb  no such image: sha256:c83290328d1760c9aaa8223737a0e8a6afc07931fc59fc1f8af193a63c03d727: No such image: sha256:c83290328d1760c9aaa8223737a0e8a6afc07931fc59fc1f8af193a63c03d727
+
+ERROR: for weba  no such image: sha256:c83290328d1760c9aaa8223737a0e8a6afc07931fc59fc1f8af193a63c03d727: No such image: sha256:c83290328d1760c9aaa8223737a0e8a6afc07931fc59fc1f8af193a63c03d727
+
+ERROR: for mongo-seed  no such image: sha256:738e3510e7a2b66e7401ea40341bee552f32b5cf718e057fa4b2600562a0a462: No such image: sha256:738e3510e7a2b66e7401ea40341bee552f32b5cf718e057fa4b2600562a0a462
+Encountered errors while bringing up the project.
+[33mWARNING:[0m Dependency conflict: an older version of the 'docker-py' package may be polluting the namespace. If you're experiencing crashes, run the following command to remedy the issue:
+pip uninstall docker-py; pip uninstall docker; pip install docker
+Pulling haproxy (hypriot/rpi-haproxy:latest)...
+latest: Pulling from hypriot/rpi-haproxy
+Digest: sha256:4f9e1b85968e9909ec70517e831aa887bbab58090efaaa895677b157d1e49822
+Status: Downloaded newer image for hypriot/rpi-haproxy:latest
+webapp_mongo_1 is up-to-date
+Recreating 42c7ccdd0030_webapp_weba_1 ... 
+Recreating 42c7ccdd0030_webapp_weba_1
+Recreating 530a34df33ee_webapp_mongo-seed_1 ... 
+Recreating 530a34df33ee_webapp_mongo-seed_1
+Recreating 305cff9b632e_webapp_webb_1 ... 
+Recreating 305cff9b632e_webapp_webb_1
+[1A[2KRecreating 42c7ccdd0030_webapp_weba_1 ... [31merror[0m[1B
+ERROR: for 42c7ccdd0030_webapp_weba_1  no such image: sha256:c83290328d1760c9aaa8223737a0e8a6afc07931fc59fc1f8af193a63c03d727: No such image: sha256:c83290328d1760c9aaa8223737a0e8a6afc07931fc59fc1f8af193a63c03d727
+[1A[1A[2K[2KRecreating 530a34df33ee_webapp_mongo-seed_1 ... [31merror[0mRecreating 305cff9b632e_webapp_webb_1 ... [31merror[0m[1B
+ERROR: for 530a34df33ee_webapp_mongo-seed_1  no such image: sha256:738e3510e7a2b66e7401ea40341bee552f32b5cf718e057fa4b2600562a0a462: No such image: sha256:738e3510e7a2b66e7401ea40341bee552f32b5cf718e057fa4b2600562a0a462
+[1B
+ERROR: for 305cff9b632e_webapp_webb_1  no such image: sha256:c83290328d1760c9aaa8223737a0e8a6afc07931fc59fc1f8af193a63c03d727: No such image: sha256:c83290328d1760c9aaa8223737a0e8a6afc07931fc59fc1f8af193a63c03d727
+
+ERROR: for webb  no such image: sha256:c83290328d1760c9aaa8223737a0e8a6afc07931fc59fc1f8af193a63c03d727: No such image: sha256:c83290328d1760c9aaa8223737a0e8a6afc07931fc59fc1f8af193a63c03d727
+
+ERROR: for weba  no such image: sha256:c83290328d1760c9aaa8223737a0e8a6afc07931fc59fc1f8af193a63c03d727: No such image: sha256:c83290328d1760c9aaa8223737a0e8a6afc07931fc59fc1f8af193a63c03d727
+
+ERROR: for mongo-seed  no such image: sha256:738e3510e7a2b66e7401ea40341bee552f32b5cf718e057fa4b2600562a0a462: No such image: sha256:738e3510e7a2b66e7401ea40341bee552f32b5cf718e057fa4b2600562a0a462
+Encountered errors while bringing up the project.
+[33mWARNING:[0m Dependency conflict: an older version of the 'docker-py' package may be polluting the namespace. If you're experiencing crashes, run the following command to remedy the issue:
+pip uninstall docker-py; pip uninstall docker; pip install docker
+Starting webapp_mongo_1 ... 
+Starting webapp_mongo_1
+[1A[2KStarting webapp_mongo_1 ... [32mdone[0m[1BStarting webapp_mongo-seed_1 ... 
+Starting webapp_webb_1 ... 
+Starting webapp_webb_1
+Starting webapp_mongo-seed_1
+Starting webapp_weba_1 ... 
+Starting webapp_weba_1
+[1A[2KStarting webapp_webb_1 ... [32mdone[0m[1B[1A[2KStarting webapp_weba_1 ... [32mdone[0m[1BStarting webapp_haproxy_1 ... 
+Starting webapp_haproxy_1
+[1A[2KStarting webapp_mongo-seed_1 ... [32mdone[0m[1B[1A[2KStarting webapp_haproxy_1 ... [32mdone[0m[1B[33mWARNING:[0m Dependency conflict: an older version of the 'docker-py' package may be polluting the namespace. If you're experiencing crashes, run the following command to remedy the issue:
+pip uninstall docker-py; pip uninstall docker; pip install docker
+Starting webapp_mongo_1 ... 
+Starting webapp_mongo_1
+[1A[2KStarting webapp_mongo_1 ... [32mdone[0m[1BStarting webapp_mongo-seed_1 ... 
+Recreating webapp_webb_1 ... 
+Starting webapp_mongo-seed_1
+Recreating webapp_webb_1
+Creating webapp_weba_1 ... 
+[1A[2KStarting webapp_mongo-seed_1 ... [32mdone[0m[1BCreating webapp_weba_1
+[1A[2KRecreating webapp_webb_1 ... [32mdone[0m[1B[1A[2KCreating webapp_weba_1 ... [32mdone[0m[1BRecreating webapp_haproxy_1 ... 
+Recreating webapp_haproxy_1
+[1A[2KRecreating webapp_haproxy_1 ... [32mdone[0m[1B[33mWARNING:[0m Dependency conflict: an older version of the 'docker-py' package may be polluting the namespace. If you're experiencing crashes, run the following command to remedy the issue:
+pip uninstall docker-py; pip uninstall docker; pip install docker
+Starting webapp_mongo_1 ... 
+Starting webapp_mongo_1
+[1A[2KStarting webapp_mongo_1 ... [32mdone[0m[1BStarting webapp_mongo-seed_1 ... 
+Starting webapp_mongo-seed_1
+Recreating webapp_webb_1 ... 
+Recreating webapp_weba_1 ... 
+Recreating webapp_weba_1
+Recreating webapp_webb_1
+[1A[2KStarting webapp_mongo-seed_1 ... [32mdone[0m[1B[1A[2KRecreating webapp_weba_1 ... [32mdone[0m[1B[1A[2KRecreating webapp_webb_1 ... [32mdone[0m[1BRecreating webapp_haproxy_1 ... 
+Recreating webapp_haproxy_1
+[1A[2KRecreating webapp_haproxy_1 ... [32mdone[0m[1B[33mWARNING:[0m Dependency conflict: an older version of the 'docker-py' package may be polluting the namespace. If you're experiencing crashes, run the following command to remedy the issue:
+pip uninstall docker-py; pip uninstall docker; pip install docker
+Starting webapp_mongo_1 ... 
+Starting webapp_mongo_1
+[1A[2KStarting webapp_mongo_1 ... [32mdone[0m[1BStarting webapp_mongo-seed_1 ... 
+Starting webapp_mongo-seed_1
+Recreating webapp_webb_1 ... 
+Recreating webapp_webb_1
+Creating webapp_weba_1 ... 
+Creating webapp_weba_1
+[1A[2KStarting webapp_mongo-seed_1 ... [32mdone[0m[1B[1A[2KRecreating webapp_webb_1 ... [32mdone[0m[1B[1A[2KCreating webapp_weba_1 ... [32mdone[0m[1BRecreating webapp_haproxy_1 ... 
+Recreating webapp_haproxy_1
+[1A[2KRecreating webapp_haproxy_1 ... [32mdone[0m[1B[33mWARNING:[0m Dependency conflict: an older version of the 'docker-py' package may be polluting the namespace. If you're experiencing crashes, run the following command to remedy the issue:
+pip uninstall docker-py; pip uninstall docker; pip install docker
+Starting webapp_mongo_1 ... 
+Starting webapp_mongo_1
+[1A[2KStarting webapp_mongo_1 ... [32mdone[0m[1BStarting webapp_mongo-seed_1 ... 
+Starting webapp_mongo-seed_1
+Recreating webapp_webb_1 ... 
+Recreating webapp_webb_1
+Creating webapp_weba_1 ... 
+Creating webapp_weba_1
+[1A[2KStarting webapp_mongo-seed_1 ... [32mdone[0m[1B[1A[2KCreating webapp_weba_1 ... [32mdone[0m[1B[1A[2KRecreating webapp_webb_1 ... [32mdone[0m[1BRecreating webapp_haproxy_1 ... 
+Recreating webapp_haproxy_1
+[1A[2KRecreating webapp_haproxy_1 ... [32mdone[0m[1B[33mWARNING:[0m Dependency conflict: an older version of the 'docker-py' package may be polluting the namespace. If you're experiencing crashes, run the following command to remedy the issue:
+pip uninstall docker-py; pip uninstall docker; pip install docker
+Starting webapp_mongo_1 ... 
+Starting webapp_mongo_1
+[1A[2KStarting webapp_mongo_1 ... [32mdone[0m[1BStarting webapp_mongo-seed_1 ... 
+Recreating webapp_webb_1 ... 
+Starting webapp_mongo-seed_1
+Recreating webapp_webb_1
+Creating webapp_weba_1 ... 
+Creating webapp_weba_1
+[1A[2KStarting webapp_mongo-seed_1 ... [32mdone[0m[1B[1A[2KCreating webapp_weba_1 ... [32mdone[0m[1B[1A[2KRecreating webapp_webb_1 ... [32mdone[0m[1BRecreating webapp_haproxy_1 ... 
+Recreating webapp_haproxy_1
+[1A[2KRecreating webapp_haproxy_1 ... [32mdone[0m[1B

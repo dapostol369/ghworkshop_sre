@@ -1,0 +1,42 @@
+<html>
+<div> <!--ng-controller="titan.product_details"-->
+    <div class="container">
+        <h2>{{ productdetails[0].common_name }}</h2>
+
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="{{ productdetails[0].imgurl }}" class="img-responsive">
+            </div>
+
+            <div class="col-xs-8 col-sm-6 col-md-4 col-lg-3">
+                <div class="well">
+                    <h3>Price</h3>
+                    <p> $ {{ productdetails[0].price }} </p>
+
+                        <label>
+                            <input type="number" ng-model="qty" ng-init="1"  min="1" max="10">
+                        </label>
+
+                     <a class="btn btn-primary" href="#/cart/{{ productdetails[0].common_name }}/{{ productdetails[0].price}}/{{ qty }}"> Add to Cart </a> 
+                     
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="product-details">
+
+            <h3>Product details</h3>
+
+            <ul>
+                <li>Product type: {{ productdetails[0].product_type }}</li>
+                <li>Description: {{ productdetails[0].description }}</li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+</html>
+

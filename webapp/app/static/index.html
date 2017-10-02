@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+        <script src="http://code.angularjs.org/1.5.3/angular-route.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+        
+        <!--script src="/static/bower_components/ngCart/dist/ngCart.js"></script-->
+        <script src="/static/app/app.js"></script>
+        <script src="/static/app/product/product.js"></script>
+        <script src="/static/app/product/product_details.js"></script>
+        <script src="/static/app/cart/cart.js"></script>
+        <script src="/static/app/cart/cartsummary.js"></script>
+        <script src="/static/app/home/home.js"></script>
+       
+
+        <!--link rel="stylesheet" href="/static/css/homepage.css" /-->
+        <link rel="stylesheet" href="/static/css/site.css" />
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.css" />
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+
+    </head>
+    <body ng-app="myApp">
+                
+        <!-- HEADER AND NAVBAR -->
+        <header>                 
+            <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">Grace Inc.</a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="#home"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="#product"><i class="fa fa-book"></i> Product</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#/cartsummary"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+
+                </ul>
+            </div>
+
+            </nav>
+        </header>
+                <hr/>
+             
+             <div ng-view></div>
+    </body>
+</html>

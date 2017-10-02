@@ -1,0 +1,5 @@
+---
+# tasks file for docker_operations
+
+- include: ./stop_container.yml
+  when: docker_operation == "stop_container"

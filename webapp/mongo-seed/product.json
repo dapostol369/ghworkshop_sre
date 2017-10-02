@@ -1,0 +1,19 @@
+[
+{ "num": "1",  "product_type": "equipment",  "common_name": "laptop", "price": "2340.00",  "imgurl": "https://static.pexels.com/photos/6568/apple-desk-laptop-macbook.jpg", "description": "Apple MacBook Pro 13 Laptop, Touch Bar & Touch num, 2.9 GHz Intel i5, 512 GB SSD, 8 GB RAM"},
+{ "num": "2",  "product_type": "equipment" , "common_name": "mouse", "price": "17.50", "imgurl": "https://static.pexels.com/photos/6416/apple-desk-office-technology.jpg", "description" : "Comfort Mouse 4500, Black"},
+{ "num": "3",  "product_type": "equipment",  "common_name": "keyboard","price": "25.00", "imgurl": "https://static.pexels.com/photos/257875/pexels-photo-257875.jpeg", "description": "Wired Keyboard 600, English"},
+{ "num": "4",  "product_type": "equipment",  "common_name": "printer","price": "329.00", "imgurl": "https://static.pexels.com/photos/193057/pexels-photo-193057.jpeg", "description": "LaserJet Pro Multi-Function Laser Printer"},
+{ "num": "5",  "product_type": "equipment",  "common_name": "iPhone", "price": "638.00", "imgurl": "https://static.pexels.com/photos/236133/pexels-photo-236133.jpeg", "description": "iPhone 6s 32GB"},
+{ "num": "6",  "product_type": "equipment",  "common_name": "headphones","price": "26.19", "imgurl": "https://static.pexels.com/photos/358103/pexels-photo-358103.jpeg", "description": "iLive IAHB16P Wireless Bluetooth Headphones"},
+
+{ "num": "7",  "product_type": "personal",  "common_name": "iwatch","price": "369.00", "imgurl": "https://static.pexels.com/photos/267394/pexels-photo-267394.jpeg", "description": "Apple Watch Series 2 38mm Space Gray Aluminum Case Black Sport Band - Space Gray Aluminum"},
+{ "num": "8",  "product_type": "personal",  "common_name": "glasses", "price": "159.99",  "imgurl": "https://static.pexels.com/photos/39716/pexels-photo-39716.jpeg", "description": "Fashionable Sunglasses"},
+{ "num": "9",  "product_type": "personal",  "common_name": "necklace","price": "299.00", "imgurl": "https://static.pexels.com/photos/135486/pexels-photo-135486.jpeg", "description": "Heart-shaped platinum necklace"},
+
+{ "num": "10",  "product_type": "office",  "common_name": "desk","price": "44.99", "imgurl": "https://static.pexels.com/photos/196658/pexels-photo-196658.jpeg", "description": "Comfort Products - Stanton Computer Desk - Black"},
+{ "num": "11",  "product_type": "office",  "common_name": "lamp","price": "119.00", "imgurl": "https://static.pexels.com/photos/284951/pexels-photo-284951.jpeg", "description": "Kennedy Task Lamp, Antique Brass, CFL"},
+{ "num": "12",  "product_type": "office",  "common_name": "desk chair","price": "44.99", "imgurl": "https://static.pexels.com/photos/315638/pexels-photo-315638.jpeg", "description": "Best Choice Products Ergonomic Mesh Computer Office Desk Task Mnumback Task Chair w/Metal Base New"},
+
+{ "num": "13",  "product_type": "health" , "common_name": "complete multi-vitamins", "price": "9.50", "imgurl": "https://static.pexels.com/photos/159211/headache-pain-pills-medication-159211.jpeg", "description" : "Complex muti-vitamins for a healthy body"},
+{ "num": "14",  "product_type": "kitchen",  "common_name": "mug", "price": "8.99", "imgurl": "https://static.pexels.com/photos/266686/pexels-photo-266686.jpeg", "description": "You are the Best Coffee Mug"}
+]
