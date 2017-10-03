@@ -3,8 +3,7 @@ from pymongo import MongoClient
 from bson.json_util import dumps
 
 app = Flask(__name__)
-
-client = MongoClient('mongo',27017,connect=False)
+client = MongoClient("mongodb://mongo:27017",connect=False)
 db = client.ghc #database connector
 
 
