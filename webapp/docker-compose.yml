@@ -19,7 +19,7 @@ services:
     volumes:
       - $HOME/ghc/mongodata:/data/db
     ports:
-      - "mongodb:27017:27017"
+      - "27017:27017"
   mongo-seed:
     build: ./mongo-seed
     links:
