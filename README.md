@@ -2,7 +2,7 @@
 This is a simple webapp written with FLASK PYTHON and ANGULAR with a MONGO backend, with HAPROXY as a load balancer.
 This was written as a web app example for the Grace Hopper Conference 2017.
 
-The web application using docker-hub images
+The web application using docker-hub images</br>
 a) uwsgi-nginx-flask
 - tiangolo/uwsgi-nginx-flask:python2.7
 
@@ -25,10 +25,10 @@ b. Download ansible
 c. Download files from git to $HOME.  (NOTE $HOME needs to be defined).</br>
 NOTE: The data for mongo will persist in $HOME/ghc/mongodata
 
-d) If using UBUNTU, HAPROXY additional changes needed
-- You will need to setup the HAPROXY to setup you haproxy ubuntu environment.Please see this [doc](https://linoxide.com/ubuntu-how-to/setup-haproxy-ubuntu-16-04/)
+d) If using UBUNTU, HAPROXY requires additional setup
+- You will need to setup the HAPROXY environment.  Please see this [doc](https://linoxide.com/ubuntu-how-to/setup-haproxy-ubuntu-16-04/)
 - This [doc]( https://www.digitalocean.com/community/tutorials/an-introduction-to-haproxy-and-load-balancing-concepts ) explains the haproxy concepts.
-- Also need to copy the "haproxy/haproxy_ubuntu.cfg" and copy it to the "haproxy.cfg" file
+- Also you need to copy the "haproxy/haproxy_ubuntu.cfg" and replace the "haproxy.cfg" file
 
 # TO RUN the web app
 a. Change dir: cd $HOME/ghworkshop_sre/webapp/app </br>
